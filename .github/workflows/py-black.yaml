@@ -1,8 +1,5 @@
 name: Binary search - Formatting (black)
 
-on:
-  workflow_dispatch: {}
-
 jobs:
   py-black:
     name: Binary search - Formatting (black)
