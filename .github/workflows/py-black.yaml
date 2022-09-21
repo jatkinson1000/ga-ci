@@ -19,3 +19,8 @@ jobs:
 
     # --check fails if black would reformat, succeeds if no changes
     - run: black --check binary-search-typed.py
+
+on:
+  push:
+    branches:
+      - 'main'
